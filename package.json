@@ -1,0 +1,47 @@
+{
+  "name": "array-pair",
+  "description": "Pair two arrays, or pair a single array's contents",
+  "author": "George Thomas",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mgthomas99/array-pair/blob/master/README.md",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "keywords": [
+    "array",
+    "join",
+    "pair"
+  ],
+  "repository": {
+    "url": "https://github.com/mgthomas99/array-pair"
+  },
+  "bugs": {
+    "url": "https://github.com/mgthomas99/array-pair/issues",
+    "email": "m.g.thomas99@gmail.com"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "report": "nyc report",
+    "test": "nyc node_modules/mocha/bin/_mocha test/**/*.js",
+    "upload-test": "npm-run-all -s \"report\" \"codecov -f coverage/*.json -t \""
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "codecov": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3",
+    "mocha": "^4.0.1",
+    "npm-run-all": "^4.1.2",
+    "nyc": "^11.3.0",
+    "typescript": "^2.6.1"
+  },
+  "nyc": {
+    "extension": [
+      ".js"
+    ],
+    "reporter": [
+      "html",
+      "json",
+      "lcov"
+    ]
+  }
+}
