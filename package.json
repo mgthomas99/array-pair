@@ -21,7 +21,7 @@
   "scripts": {
     "build": "gulp build",
     "report": "nyc report",
-    "test": "nyc node_modules/mocha/bin/_mocha test/**/*.js",
+    "test": "nyc node_modules/mocha/bin/_mocha test/**/*.spec.js",
     "upload-test": "npm-run-all -s \"report\" \"codecov -f coverage/*.json -t \""
   },
   "devDependencies": {
