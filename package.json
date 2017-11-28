@@ -1,6 +1,6 @@
 {
   "name": "array-pair",
-  "description": "Pair two arrays, or pair a single array's contents",
+  "description": "JavaScript array pairing and merging function",
   "author": "George Thomas",
   "version": "0.5.0",
   "homepage": "https://github.com/mgthomas99/array-pair/blob/master/README.md",
@@ -8,6 +8,7 @@
   "main": "dist/index.js",
   "keywords": [
     "array",
+    "merge",
     "join",
     "pair"
   ],
