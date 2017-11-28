@@ -1,15 +1,14 @@
 {
-    "compilerOptions": {
-      "moduleResolution": "node",
-      "module": "commonjs",
-      "target": "es2015",
-
-      "declaration": true,
-
-      "allowUnreachableCode": false,
-      "allowUnusedLabels": false,
-      "alwaysStrict": true,
-      "noImplicitAny": true,
-      "noUnusedLocals": true
-    }
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2015",
+    "declaration": true,
+    
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true
+  }
 }
