@@ -8,7 +8,7 @@
 array-pair
 ==========
 
-[![NPM][npm-shield-url]][npm-package-url]
+[![NPM][npm-shield-url]][npm-url]
 [![NPM][license-shield-url]][license-url]
 [![CircleCI][circleci-shield-url]][circleci-url]
 
