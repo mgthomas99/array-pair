@@ -52,7 +52,7 @@
 export function pair<T, U>(arr1: Array<T>, arr2: Array<U>, start?: number, length?: number): Array<[T, U]> {
     [start, length] = [start || 0, length || Math.min(arr1.length, arr2.length)];
     const arr3 = new Array<[T, U]>();
-    for (let i = start; i < length; i++) {
+    for (let i = start; i < start + length; i++) {
         const arr1_item = arr1[i];
         const arr2_item = arr2[i];
         arr3.push([ arr1_item, arr2_item ]);
