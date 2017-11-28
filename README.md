@@ -46,13 +46,23 @@ code coverage and strict typing definitions.
 ### Testing
 
 `array-pair` uses a combination of `mocha` and `chai` for local code tests, and
-CircleCI for continuous integration. To test `array-pair`, simply build the
-project using the instructions provided in the "Build & Develop" section of this
-readme, and then execute the following in a command prompt:
+CircleCI for continuous integration.
+
+`array-pair` is written in TypeScript, but its tests are written in JavaScript
+as this removes dependencies and makes continuous integration much easier. The
+disadvantage is that this requires `array-pair` to be built before it can be
+tested.
+
+To test `array-pair`, run the following npm script:
 
 ```sh
     npm test
 ```
+
+The command will invoke the build process and await its completion before
+executing the tests. The tests will emit coverage reports and temporary
+information to files in the folders `.nyc_output/` and `coverage/` for upload
+to a code coverage manager such as CodeCov.
 
 ## License
 
