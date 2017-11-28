@@ -13,6 +13,7 @@
     "pair"
   ],
   "repository": {
+    "type": "git",
     "url": "https://github.com/mgthomas99/array-pair"
   },
   "bugs": {
