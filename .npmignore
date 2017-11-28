@@ -1,7 +1,9 @@
 src/
+test/
 *.log.?*
 .editorconfig
 .gitignore
 .npmrc
+circle.yml
 gulpfile.js
 tsconfig.json
