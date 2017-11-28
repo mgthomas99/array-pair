@@ -7,5 +7,6 @@ test/
 .gitignore
 .npmrc
 circle.yml
+codecov.yml
 gulpfile.js
 tsconfig.json
