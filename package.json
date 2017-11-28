@@ -22,7 +22,7 @@
     "build": "gulp build",
     "report": "nyc report",
     "test": "nyc node_modules/mocha/bin/_mocha test/**/*.spec.js",
-    "upload-test": "codecov -f coverage/*.json -t 757ffd1b-cc72-4abc-abde-b6300b5f0786",
+    "upload-test": "codecov -f coverage/*.json",
     "prepublish": "npm-run-all -s \"build\"",
     "pretest": "npm-run-all -s \"build\""
   },
